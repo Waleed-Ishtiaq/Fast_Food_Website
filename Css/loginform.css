@@ -1,0 +1,181 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* for login page */
+.banner-form::before{
+        content: "";
+        position: absolute;
+        background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url('../image/background-9.jpg') ;
+        background-position:bottom;
+        background-repeat: no-repeat;
+        background-size:cover;
+         height: 900px;
+         filter: blur(1px);
+         opacity: 0.9;
+        width: 100%;
+        z-index: -1;
+        padding-top: 0px;
+    }
+
+
+    /* for register page */
+    .register-banner-form::before{
+        content: "";
+        position: absolute;
+        background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url('../image/background-7.jpg') ;
+        background-position:bottom;
+        background-repeat: no-repeat;
+        background-size:cover;
+         height: 900px;
+         filter: blur(1px);
+         opacity: 0.9;
+        width: 100%;
+        z-index: -1;
+        padding-top: 0px;
+    }
+
+    /* for contact form */
+    .contact-banner-form::before{
+        content: "";
+        position: absolute;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url('../image/background-8.jpg') ;
+        background-position:bottom;
+        background-repeat: no-repeat;
+        background-size:cover;
+         height: 900px;
+         filter: blur(1px);
+         opacity: 0.9;
+        width: 100%;
+        z-index: -1;
+        padding-top: 0px;
+    
+    }
+.form-container
+{
+
+    
+    border: 2px solid white;
+
+    display: flex;
+    border-radius: 12px;
+    flex-direction: column;
+    padding: 50px 25px 50px 25px;
+    /* text-align: center; */
+    width: 30%;
+    margin: auto;
+    margin-top: 200px;
+    background-color: rgba(0,0, 0, 0.3);
+}
+.inner-items
+{
+    margin-left:15%;
+  
+}
+.heading
+{
+    color: white;
+    margin-left: 30%;
+}
+.form-container label
+
+{
+    /* margin-left: -230px; */
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: white;
+}
+.form-container input 
+{
+    height: 30px;
+    width: 80%;
+    /* padding-bottom: 10px; */
+    margin: 10px 0px 10px 0px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+/* contact form */
+input[type= radio]
+{
+    height: 16px;
+    width: 10%;
+    /* padding-bottom: 10px; */
+    margin: 10px 0px 10px 0px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    
+}
+textarea
+{
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.form-container button{
+
+    height: 40px;
+    width: 83%;
+    /* padding: 30px; */
+    border-radius: 5px;
+    margin-top: 30px;
+    font-size: 20px;
+    border: none;
+    background-color: #D40000;
+    color: white;
+    /* text-transform: uppercase; */
+
+}
+
+.login-button 
+{
+    background-color:#AE0000;
+    cursor: pointer;
+
+}
+#signup-btn
+{
+    list-style: none;
+    text-decoration: none;
+}
+
+.not-member{
+    margin-left: 15%;
+    color: white;
+}
+.not-member a{
+
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+/* sign up form css */
+.not-member-register h4{
+    margin-left: 3%;
+    color: white;
+}
+.not-member-register a{
+
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+/* login page footer */
+#login-footer-container
+{
+ margin-top: 320px;
+}
+/* contact footer container */
+#contact-footer-container
+{
+ margin-top: 200px;
+}
+/* register footer */
+#register-footer-container
+{
+    margin-top: 150px;
+}

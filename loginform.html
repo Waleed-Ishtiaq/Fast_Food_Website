@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css\style.css">
+  <link rel="stylesheet" href="Css\loginform.css">
+  <title>Login Form</title>
+</head>
+
+<body>
+  <nav id="navbar">
+    <div id="logo">
+      <a href="index.html"><img src="image/logo.png" alt=""></a>
+
+    </div>
+    <div class="right-btn">
+      <button id="login-btn"><a href="loginform.html" class="nav-btn">login<a></button>
+      <button id="register-btn"><a href="register.html" class="nav-btn">Register</a></button>
+    </div>
+    <ul id="nav-list">
+      <li class="items"><a href="index.html">HOME</a></li>
+      <li class="items"><a href="contact.html">CONTACT</a></li>
+    </ul>
+
+  </nav>
+  <div class="banner-form"></div>
+  <div class="form-container">
+    <div class="inner-items">
+      <form action="loginform.php" method="post">
+        <div class="heading">
+          <h2>Login</h2>
+        </div>
+        <div>
+          <label for="">User Name</label>
+        </div>
+        <div>
+          <input type="text" name="username" placeholder="Enter you username" required>
+        </div>
+        <div>
+          <label for="">Password</label>
+        </div>
+        <div>
+          <input type="password" name="password" placeholder="Enter your password" required>
+        </div>
+        <div>
+          <button type="submit" class="login-button" name="login">Login</button>
+        </div>
+        <div class="not-member">
+          <h4>not a member? <a href="register.php">Signup </a></h4>
+        </div>
+      </form>
+    </div>
+  </div>
+  <footer>
+    <div class="footer-container" id="login-footer-container">
+      <h2 class="footer-heading">
+        Also Contact us on
+      </h2>
+
+      <div class="footer-socail">
+        <div class="facebook">
+          <img src="/image/footer/icons8-facebook-50.png" alt="">
+        </div>
+        <div class="insta">
+          <img src="/image/footer/icons8-instagram-64.png" alt="">
+        </div>
+        <div class="whatsapp">
+          <img src="/image/footer/icons8-whatsapp-50.png" alt="">
+        </div>
+      </div>
+      <div class="footer-contact">
+        <div id="contact-number">
+          <p>Phone: 0323-1589585 </p>
+        </div>
+        <div id="email">
+          <p>Email: info@mymeal.com </p>
+        </div>
+      </div>
+      <hr>
+      <div class="footer-button">
+        <div class="play-store">
+          <img src="/image/footer/google-play-button.png" alt="">
+        </div>
+        <div class="apple-store">
+          <img src="/image/footer/app-store-button.png" alt="">
+        </div>
+      </div>
+      <div class="copy">
+        <p>&copy; Powered by SE co.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
